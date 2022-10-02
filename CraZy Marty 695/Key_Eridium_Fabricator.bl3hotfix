@@ -83,8 +83,8 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/_Shared/_Design/InventoryCategories/Inventor
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/UIModeName_Fabricator_PrimaryFire.UIModeName_Fabricator_PrimaryFire,Text,0,,Key Hose
 
 # One Grouping per shot and set cost to one Eridium 
-SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Att_FabricatorProjectilesPerShot.Att_FabricatorProjectilesPerShot,ValueResolver.Object..Value.BaseValueConstant,0,,1
-SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Att_FabricatorShotCost.Att_FabricatorShotCost,ValueResolver.Object..Value.BaseValueConstant,0,,1
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Att_FabricatorProjectilesPerShot.Att_FabricatorProjectilesPerShot,ValueResolver.Object..Value.BaseValueConstant,0,,0
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Att_FabricatorShotCost.Att_FabricatorShotCost,ValueResolver.Object..Value.BaseValueConstant,0,,0
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[2].Object..WeaponUseComponent.Object..ShotAmmoCost.BaseValue,0,,0
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[2].Object..WeaponUseComponent.Object..MinShotAmmoCost,0,,0
 
@@ -92,10 +92,10 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[1].Object..WeaponUseComponent.Object..AutomaticBurstCount.BaseValue,0,,0
 
 # Fire Rate
-SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[1].Object..WeaponUseComponent.Object..FireRate.BaseValue,0,,6
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[1].Object..WeaponUseComponent.Object..FireRate.BaseValue,0,,100
 
 # Setting the item pool
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns.ItemPool_FabricatorGuns,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_VaultCard01Key_3,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_VaultCard01Key_3"',Weight=(BaseValueConstant=1)),(InventoryBalanceData=/Game/PatchDLC/VaultCard2/Data/Currency/InventoryBalance_VaultCard2Key_3,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/VaultCard2/Data/Currency/InventoryBalance_VaultCard2Key_3"',Weight=(BaseValueConstant=1)),(InventoryBalanceData=/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_DiamondKey.InventoryBalance_DiamondKey,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_DiamondKey.InventoryBalance_DiamondKey"',Weight=(BaseValueConstant=1)),(ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/Currency/ItemPool_Money_Rich.ItemPool_Money_Rich"',Weight=(BaseValueConstant=0.25)))
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns.ItemPool_FabricatorGuns,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_VaultCard01Key_3,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_VaultCard01Key_3"',Weight=(BaseValueConstant=1)),(InventoryBalanceData=/Game/PatchDLC/VaultCard2/Data/Currency/InventoryBalance_VaultCard2Key_3,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/VaultCard2/Data/Currency/InventoryBalance_VaultCard2Key_3"',Weight=(BaseValueConstant=1)),(InventoryBalanceData=/Game/PatchDLC/VaultCard3/Data/Currency/InventoryBalance_VaultCard3Key_3,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/VaultCard3/Data/Currency/InventoryBalance_VaultCard3Key_3"',Weight=(BaseValueConstant=1)),(InventoryBalanceData=/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_DiamondKey.InventoryBalance_DiamondKey,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_DiamondKey.InventoryBalance_DiamondKey"',Weight=(BaseValueConstant=1)),(ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/Currency/ItemPool_Money_Rich.ItemPool_Money_Rich"',Weight=(BaseValueConstant=0.25)))
 
 # Shot Modifier (BaseValueConstant for Amount, BaseValueScale for Multiplier)
 SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns.ItemPool_FabricatorGuns,Quantity,0,,(BaseValueConstant=4,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
@@ -112,14 +112,14 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[2].Object..WeaponUseComponent.Object..AutomaticBurstCount.BaseValue,0,,0
 
 # Fire Rate
-SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[2].Object..WeaponUseComponent.Object..FireRate.BaseValue,0,,1.5
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[2].Object..WeaponUseComponent.Object..FireRate.BaseValue,0,,25
 
 # Firing Cost
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[2].Object..WeaponUseComponent.Object..ShotAmmoCost.BaseValue,0,,0
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[2].Object..WeaponUseComponent.Object..MinShotAmmoCost,0,,0
 
 # Setting the item pool
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire.ItemPool_FabricatorGuns_AltFire,BalancedItems,0,,((ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/Eridium/ItemPool_Eridium_Stack.ItemPool_Eridium_Stack"',Weight=(BaseValueConstant=1)))
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire.ItemPool_FabricatorGuns_AltFire,BalancedItems,0,,((ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/Eridium/ItemPool_Eridium_Stack.ItemPool_Eridium_Stack"',Weight=(BaseValueConstant=100)))
 
 # Shot Modifier (BaseValueConstant for Amount, BaseValueScale for Multiplier)
 SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire.ItemPool_FabricatorGuns_AltFire,Quantity,0,,(BaseValueConstant=8,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)

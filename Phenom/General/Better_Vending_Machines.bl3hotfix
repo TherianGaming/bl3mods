@@ -45,11 +45,11 @@ SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/Vending
 # Uncommon (green)
 SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons.DA_ItemPool_VendingMachine_Weapons,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,0
 # Rare (blue)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons.DA_ItemPool_VendingMachine_Weapons,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,1.0
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons.DA_ItemPool_VendingMachine_Weapons,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,0
 # Very Rare (purple)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons.DA_ItemPool_VendingMachine_Weapons,BalancedItems.BalancedItems[3].Weight.BaseValueScale,0,,0.5
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons.DA_ItemPool_VendingMachine_Weapons,BalancedItems.BalancedItems[3].Weight.BaseValueScale,0,,0
 # Legendary (orange)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons.DA_ItemPool_VendingMachine_Weapons,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,0
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons.DA_ItemPool_VendingMachine_Weapons,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,1.0
 
 
 ### Adjusting Weapon of the Day Machine Pool
@@ -57,9 +57,9 @@ SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/Vending
 # Rare (blue)
 SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons_OfTheDay.DA_ItemPool_VendingMachine_Weapons_OfTheDay,BalancedItems.BalancedItems[0].Weight.BaseValueScale,0,,0
 # Very Rare (purple)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons_OfTheDay.DA_ItemPool_VendingMachine_Weapons_OfTheDay,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,1.0
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons_OfTheDay.DA_ItemPool_VendingMachine_Weapons_OfTheDay,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,0
 # Legendary (orange)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons_OfTheDay.DA_ItemPool_VendingMachine_Weapons_OfTheDay,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,0.1
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Weapons_OfTheDay.DA_ItemPool_VendingMachine_Weapons_OfTheDay,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,1.0
 
 ### Adjusting Grenade Machine Pool
 
@@ -68,20 +68,20 @@ SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/Vending
 # Uncommon (green)
 SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Grenades.DA_ItemPool_VendingMachine_Grenades,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,0
 # Rare (blue)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Grenades.DA_ItemPool_VendingMachine_Grenades,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,1.0
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Grenades.DA_ItemPool_VendingMachine_Grenades,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,0
 # Very Rare (purple)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Grenades.DA_ItemPool_VendingMachine_Grenades,BalancedItems.BalancedItems[3].Weight.BaseValueScale,0,,0.5
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Grenades.DA_ItemPool_VendingMachine_Grenades,BalancedItems.BalancedItems[3].Weight.BaseValueScale,0,,0
 # Legendary (orange)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Grenades.DA_ItemPool_VendingMachine_Grenades,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,0
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Grenades.DA_ItemPool_VendingMachine_Grenades,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,1.0
 
 ### Adjusting Grenade of the Day Machine Pool
 
 # Rare (blue)
 SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Ammo_OfTheDay.DA_ItemPool_VendingMachine_Ammo_OfTheDay,BalancedItems.BalancedItems[0].Weight.BaseValueScale,0,,0
 # Very Rare (purple)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Ammo_OfTheDay.DA_ItemPool_VendingMachine_Ammo_OfTheDay,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,1
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Ammo_OfTheDay.DA_ItemPool_VendingMachine_Ammo_OfTheDay,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,0
 # Legendary (orange)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Ammo_OfTheDay.DA_ItemPool_VendingMachine_Ammo_OfTheDay,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,0.3
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Ammo_OfTheDay.DA_ItemPool_VendingMachine_Ammo_OfTheDay,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,1.0
 
 ### Adjusting Shield Machine Pool
 
@@ -90,11 +90,11 @@ SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/Vending
 # Uncommon (green)
 SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Shields.DA_ItemPool_VendingMachine_Shields,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,0
 # Rare (blue)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Shields.DA_ItemPool_VendingMachine_Shields,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,1.0
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Shields.DA_ItemPool_VendingMachine_Shields,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,0
 # Very Rare (purple)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Shields.DA_ItemPool_VendingMachine_Shields,BalancedItems.BalancedItems[3].Weight.BaseValueScale,0,,0.5
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Shields.DA_ItemPool_VendingMachine_Shields,BalancedItems.BalancedItems[3].Weight.BaseValueScale,0,,0
 # Legendary (orange)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Shields.DA_ItemPool_VendingMachine_Shields,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,0
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Shields.DA_ItemPool_VendingMachine_Shields,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,1.0
 
 ### Adjusting Class Mods Machine Pool
 
@@ -103,11 +103,11 @@ SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/Vending
 # Uncommon (green)
 SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_ClassMods.DA_ItemPool_VendingMachine_ClassMods,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,0
 # Rare (blue)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_ClassMods.DA_ItemPool_VendingMachine_ClassMods,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,1.0
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_ClassMods.DA_ItemPool_VendingMachine_ClassMods,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,0
 # Very Rare (purple)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_ClassMods.DA_ItemPool_VendingMachine_ClassMods,BalancedItems.BalancedItems[3].Weight.BaseValueScale,0,,0.5
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_ClassMods.DA_ItemPool_VendingMachine_ClassMods,BalancedItems.BalancedItems[3].Weight.BaseValueScale,0,,0
 # Legendary (orange)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_ClassMods.DA_ItemPool_VendingMachine_ClassMods,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,0.0
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_ClassMods.DA_ItemPool_VendingMachine_ClassMods,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,1.0
 
 ### Adjusting Shield of the Day Machine Pool
 
@@ -115,17 +115,17 @@ SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/Vending
 # Rare (blue)
 SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[0].Weight.BaseValueScale,0,,0
 # Very Rare (purple)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,1
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[1].Weight.BaseValueScale,0,,0
 # Legendary (orange)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,0.3
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[2].Weight.BaseValueScale,0,,1.0
 
 ##Class Mods
 # Rare (blue)
 SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[3].Weight.BaseValueScale,0,,0
 # Very Rare (purple)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,0.5
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[4].Weight.BaseValueScale,0,,0
 # Legendary (orange)
-SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[5].Weight.BaseValueScale,0,,0.1
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/Loot/ItemPools/VendingMachines/DA_ItemPool_VendingMachine_Health_OfTheDay.DA_ItemPool_VendingMachine_Health_OfTheDay,BalancedItems.BalancedItems[5].Weight.BaseValueScale,0,,1.0
 
 
 

@@ -47,33 +47,36 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design
 ### Eridium (Amount) Value
 ###
 
-SparkPatchEntry,(1,1,0,),/Game/Pickups/Eridium/InvData_Eridium_Single.InvData_Eridium_Single,MonetaryValue,0,,(BaseValueConstant=1000000.0)
-SparkPatchEntry,(1,1,0,),/Game/Pickups/Eridium/InvData_Eridium_Ingot.InvData_Eridium_Ingot,MonetaryValue,0,,(BaseValueConstant=1000000.0)
-SparkPatchEntry,(1,1,0,),/Game/Pickups/Eridium/InvData_Eridium_Stack.InvData_Eridium_Stack,MonetaryValue,0,,(BaseValueConstant=10000000.0)
+SparkPatchEntry,(1,1,0,),/Game/Pickups/Eridium/InvData_Eridium_Single.InvData_Eridium_Single,MonetaryValue,0,,(BaseValueConstant=10000.0)
+SparkPatchEntry,(1,1,0,),/Game/Pickups/Eridium/InvData_Eridium_Ingot.InvData_Eridium_Ingot,MonetaryValue,0,,(BaseValueConstant=10000.0)
+SparkPatchEntry,(1,1,0,),/Game/Pickups/Eridium/InvData_Eridium_Stack.InvData_Eridium_Stack,MonetaryValue,0,,(BaseValueConstant=250000000.0)
 
 ###
 ### Key (Amount) and Money (Multiplier) Value
 ###
 
-SparkPatchEntry,(1,1,0,),/Game/PatchDLC/VaultCard/Data/Currency/InvData_DiamondKey.InvData_DiamondKey,MonetaryValue,0,,(BaseValueConstant=100.0)
-SparkPatchEntry,(1,1,0,),/Game/PatchDLC/VaultCard/Data/Currency/InvData_VaultCard01Key_3.InvData_VaultCard01Key_3,MonetaryValue,0,,(BaseValueConstant=100.0)
-SparkPatchEntry,(1,1,0,),/Game/PatchDLC/VaultCard2/Data/Currency/InvData_VaultCard2Key_3.InvData_VaultCard2Key_3,MonetaryValue,0,,(BaseValueConstant=100.0)
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/VaultCard/Data/Currency/InvData_DiamondKey.InvData_DiamondKey,MonetaryValue,0,,(BaseValueConstant=10000000.0)
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/VaultCard/Data/Currency/InvData_VaultCard01Key_3.InvData_VaultCard01Key_3,MonetaryValue,0,,(BaseValueConstant=10000000.0)
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/VaultCard2/Data/Currency/InvData_VaultCard2Key_3.InvData_VaultCard2Key_3,MonetaryValue,0,,(BaseValueConstant=10000000.0)
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/VaultCard3/Data/Currency/InvData_VaultCard3Key_3.InvData_VaultCard3Key_3,MonetaryValue,0,,(BaseValueConstant=10000000.0)
 
-SparkPatchEntry,(1,1,0,),/Game/Pickups/Money/InvData_Money_SingleStack.InvData_Money_SingleStack,MonetaryValue,0,,(BaseValueScale=500)
-SparkPatchEntry,(1,1,0,),/Game/Pickups/Money/InvData_Money_TripleStack.InvData_Money_TripleStack,MonetaryValue,0,,(BaseValueScale=500)
-SparkPatchEntry,(1,1,0,),/Game/Pickups/Money/InvData_Money_SlotMachine_Single.InvData_Money_SlotMachine_Single,MonetaryValue,0,,(BaseValueScale=500)
-SparkPatchEntry,(1,1,0,),/Game/Pickups/Money/InvData_Money_SlotMachine_Double.InvData_Money_SlotMachine_Double,MonetaryValue,0,,(BaseValueScale=500)
-SparkPatchEntry,(1,1,0,),/Game/Pickups/Money/InvData_Money_SlotMachine_Triple.InvData_Money_SlotMachine_Triple,MonetaryValue,0,,(BaseValueScale=500)
+SparkPatchEntry,(1,1,0,),/Game/Pickups/Money/InvData_Money_SingleStack.InvData_Money_SingleStack,MonetaryValue,0,,(BaseValueScale=250)
+SparkPatchEntry,(1,1,0,),/Game/Pickups/Money/InvData_Money_TripleStack.InvData_Money_TripleStack,MonetaryValue,0,,(BaseValueScale=250)
+SparkPatchEntry,(1,1,0,),/Game/Pickups/Money/InvData_Money_SlotMachine_Single.InvData_Money_SlotMachine_Single,MonetaryValue,0,,(BaseValueScale=250)
+SparkPatchEntry,(1,1,0,),/Game/Pickups/Money/InvData_Money_SlotMachine_Double.InvData_Money_SlotMachine_Double,MonetaryValue,0,,(BaseValueScale=250)
+SparkPatchEntry,(1,1,0,),/Game/Pickups/Money/InvData_Money_SlotMachine_Triple.InvData_Money_SlotMachine_Triple,MonetaryValue,0,,(BaseValueScale=250)
 
 # Auto-Pickup
 SparkPatchEntry,(1,1,0,),/Game/Gear/_Shared/_Design/InventoryCategories/InventoryCategory_DiamondKey.InventoryCategory_DiamondKey,PickupActionType,0,,OnUseOrTouch
 SparkPatchEntry,(1,1,0,),/Game/Gear/_Shared/_Design/InventoryCategories/InventoryCategory_VaultCard1Key.InventoryCategory_VaultCard1Key,PickupActionType,0,,OnUseOrTouch
 SparkPatchEntry,(1,1,0,),/Game/Gear/_Shared/_Design/InventoryCategories/InventoryCategory_VaultCard2Key.InventoryCategory_VaultCard2Key,PickupActionType,0,,OnUseOrTouch
+SparkPatchEntry,(1,1,0,),/Game/Gear/_Shared/_Design/InventoryCategories/InventoryCategory_VaultCard3Key.InventoryCategory_VaultCard3Key,PickupActionType,0,,OnUseOrTouch
 
 # Shared Pickups
 SparkPatchEntry,(1,1,0,),/Game/Gear/_Shared/_Design/InventoryCategories/InventoryCategory_DiamondKey.InventoryCategory_DiamondKey,SharedWithAllPlayers,0,,true
 SparkPatchEntry,(1,1,0,),/Game/Gear/_Shared/_Design/InventoryCategories/InventoryCategory_VaultCard1Key.InventoryCategory_VaultCard1Key,SharedWithAllPlayers,0,,true
 SparkPatchEntry,(1,1,0,),/Game/Gear/_Shared/_Design/InventoryCategories/InventoryCategory_VaultCard2Key.InventoryCategory_VaultCard2Key,SharedWithAllPlayers,0,,true
+SparkPatchEntry,(1,1,0,),/Game/Gear/_Shared/_Design/InventoryCategories/InventoryCategory_VaultCard3Key.InventoryCategory_VaultCard3Key,SharedWithAllPlayers,0,,true
 
 ###
 ### Regular Fire
@@ -92,10 +95,10 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[1].Object..WeaponUseComponent.Object..AutomaticBurstCount.BaseValue,0,,0
 
 # Fire Rate
-SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[1].Object..WeaponUseComponent.Object..FireRate.BaseValue,0,,6
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[1].Object..WeaponUseComponent.Object..FireRate.BaseValue,0,,50
 
 # Setting the item pool
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns.ItemPool_FabricatorGuns,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_VaultCard01Key_3,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_VaultCard01Key_3"',Weight=(BaseValueConstant=1)),(InventoryBalanceData=/Game/PatchDLC/VaultCard2/Data/Currency/InventoryBalance_VaultCard2Key_3,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/VaultCard2/Data/Currency/InventoryBalance_VaultCard2Key_3"',Weight=(BaseValueConstant=1)),(InventoryBalanceData=/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_DiamondKey.InventoryBalance_DiamondKey,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_DiamondKey.InventoryBalance_DiamondKey"',Weight=(BaseValueConstant=1)),(ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/Currency/ItemPool_Money_Rich.ItemPool_Money_Rich"',Weight=(BaseValueConstant=0.25)))
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns.ItemPool_FabricatorGuns,BalancedItems,0,,((InventoryBalanceData=/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_VaultCard01Key_3,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_VaultCard01Key_3"',Weight=(BaseValueConstant=1)),(InventoryBalanceData=/Game/PatchDLC/VaultCard2/Data/Currency/InventoryBalance_VaultCard2Key_3,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/VaultCard2/Data/Currency/InventoryBalance_VaultCard2Key_3"',Weight=(BaseValueConstant=1)),(InventoryBalanceData=/Game/PatchDLC/VaultCard3/Data/Currency/InventoryBalance_VaultCard3Key_3,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/VaultCard3/Data/Currency/InventoryBalance_VaultCard3Key_3"',Weight=(BaseValueConstant=1)),(InventoryBalanceData=/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_DiamondKey.InventoryBalance_DiamondKey,ResolvedInventoryBalanceData=InventoryBalanceData'"/Game/PatchDLC/VaultCard/Data/Currency/InventoryBalance_DiamondKey.InventoryBalance_DiamondKey"',Weight=(BaseValueConstant=1)))
 
 # Shot Modifier (BaseValueConstant for Amount, BaseValueScale for Multiplier)
 SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns.ItemPool_FabricatorGuns,Quantity,0,,(BaseValueConstant=4,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
@@ -112,7 +115,7 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[2].Object..WeaponUseComponent.Object..AutomaticBurstCount.BaseValue,0,,0
 
 # Fire Rate
-SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[2].Object..WeaponUseComponent.Object..FireRate.BaseValue,0,,1.5
+SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[2].Object..WeaponUseComponent.Object..FireRate.BaseValue,0,,0.5
 
 # Firing Cost
 SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design/Parts/Part_Eridian_Fabricator.Part_Eridian_Fabricator,AspectList.AspectList[2].Object..WeaponUseComponent.Object..ShotAmmoCost.BaseValue,0,,0
@@ -122,4 +125,4 @@ SparkPatchEntry,(1,1,0,),/Game/Gear/Weapons/HeavyWeapons/Eridian/_Shared/_Design
 SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire.ItemPool_FabricatorGuns_AltFire,BalancedItems,0,,((ItemPoolData=ItemPoolData'"/Game/GameData/Loot/ItemPools/Eridium/ItemPool_Eridium_Stack.ItemPool_Eridium_Stack"',Weight=(BaseValueConstant=1)))
 
 # Shot Modifier (BaseValueConstant for Amount, BaseValueScale for Multiplier)
-SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire.ItemPool_FabricatorGuns_AltFire,Quantity,0,,(BaseValueConstant=8,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
+SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire.ItemPool_FabricatorGuns_AltFire,Quantity,0,,(BaseValueConstant=2,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
